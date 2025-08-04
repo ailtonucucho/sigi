@@ -24,7 +24,7 @@
 												<div class="form-group row">
 													<label class="col-lg-2 col-form-label">Nome da Casa</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="title" required placeholder="Enter Title">
+														<input type="text" class="form-control" name="title" required placeholder="Insira o título">
 													</div>
 												</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
 												<div class="form-group row">
@@ -37,45 +37,45 @@
 											</div>
 											<div class="col-xl-6">
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Property Type</label>
+													<label class="col-lg-3 col-form-label">Tipo de Propriedade</label>
 													<div class="col-lg-9">
 														<select class="form-control" required name="type">
-															<option value="">Select Type</option>
-															<option value="apartment">Apartment</option>
+															<option value="">Selecione o tipo</option>
+															<option value="apartment">Apartamento</option>
 															<option value="flat">Flat</option>
-															<option value="building">Building</option>
-															<option value="house">House</option>
-															<option value="villa">Villa</option>
-															<option value="office">Office</option>
+															<option value="building">Prédio</option>
+															<option value="house">Casa</option>
+															<option value="villa">Vila</option>
+															<option value="office">Escritório</option>
 														</select>
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Selling Type</label>
+													<label class="col-lg-3 col-form-label">Tipo de venda</label>
 													<div class="col-lg-9">
 														<select class="form-control" required name="stype">
-															<option value="">Select Status</option>
-															<option value="rent">Rent</option>
-															<option value="sale">Sale</option>
+															<option value="">Selecione Status</option>
+															<option value="rent">Renda</option>
+															<option value="sale">Venda</option>
 														</select>
 													</div>
 												</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Bathroom</label>
+													<label class="col-lg-3 col-form-label">Quarto de Banho</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="bathroom" required placeholder="Enter Bathroom (only no 1 to 10)">
+														<input type="text" class="form-control" name="bathroom" required placeholder="Digitar Quarto de banho (de no 1 a 10)">
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Kitchen</label>
+													<label class="col-lg-3 col-form-label">Cozinha</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="kitchen" required placeholder="Enter Kitchen (only no 1 to 10)">
+														<input type="text" class="form-control" name="kitchen" required placeholder="Digitar Cozinha (de no 1 a 10)">
 													</div>
 												</div>
 												
 											</div>   
 											<div class="col-xl-6">
-												<div class="form-group row mb-3">
+												<!-- <div class="form-group row mb-3">
 													<label class="col-lg-3 col-form-label">BHK</label>
 													<div class="col-lg-9">
 														<select class="form-control" required name="bhk">
@@ -90,48 +90,48 @@
 															<option value="2,3,4 BHK">2,3,4 BHK</option>
 														</select>
 													</div>
-												</div>
+												</div> -->
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Bedroom</label>
+													<label class="col-lg-3 col-form-label">Quarto</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="bedroom" required placeholder="Enter Bedroom  (only no 1 to 10)">
+														<input type="text" class="form-control" name="bedroom" required placeholder="Digitar Quarto  (de no 1 a 10)">
 													</div>
 												</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Balcony</label>
+													<label class="col-lg-3 col-form-label">Varanda</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="balcony" required placeholder="Enter Balcony  (only no 1 to 10)">
+														<input type="text" class="form-control" name="balcony" required placeholder="Digitar Varanda  (de no 1 a 10)">
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Hall</label>
+													<label class="col-lg-3 col-form-label">Salão</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="hall" required placeholder="Enter Hall  (only no 1 to 10)">
+														<input type="text" class="form-control" name="hall" required placeholder="Digitar Salão  (de no 1 a 10)">
 													</div>
 												</div>
 												
 											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
 										</div>
-										<h5 class="text-secondary">Price & Location</h5><hr>
+										<h5 class="text-secondary">Preço e localização</h5><hr>
 										<div class="row">
 											<div class="col-xl-6">
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Floor</label>
+													<label class="col-lg-3 col-form-label">Andar</label>
 													<div class="col-lg-9">
 														<select class="form-control" required name="floor">
-															<option value="">Select Floor</option>
-															<option value="1st Floor">1st Floor</option>
-															<option value="2nd Floor">2nd Floor</option>
-															<option value="3rd Floor">3rd Floor</option>
-															<option value="4th Floor">4th Floor</option>
-															<option value="5th Floor">5th Floor</option>
+															<option value="">Selecione Andar</option>
+															<option value="1st Floor">1º Andar</option>
+															<option value="2nd Floor">2º Andar</option>
+															<option value="3rd Floor">3º Andar</option>
+															<option value="4th Floor">4º Andar</option>
+															<option value="5th Floor">5º Andar</option>
 														</select>
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Price</label>
+													<label class="col-lg-3 col-form-label">Preço</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="price" required placeholder="Enter Price">
+														<input type="text" class="form-control" name="price" required placeholder="Insira o preço">
 													</div>
 												</div>
 												<div class="form-group row">
@@ -158,7 +158,7 @@
 												</div>
 											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
 											<div class="col-xl-6">
-												<div class="form-group row">
+												<!-- <div class="form-group row">
 													<label class="col-lg-3 col-form-label">Total Floor</label>
 													<div class="col-lg-9">
 														<select class="form-control" required name="totalfloor">
@@ -180,17 +180,17 @@
 															<option value="15 Floor">15 Floor</option>
 														</select>
 													</div>
-												</div>
+												</div> -->
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Area Size</label>
+													<label class="col-lg-3 col-form-label">Tamanho da área</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="size" required placeholder="Enter Area Size (in sqrt)">
+														<input type="text" class="form-control" name="size" required placeholder="Digite o tamanho da área">
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Address</label>
+													<label class="col-lg-3 col-form-label">Endereço</label>
 													<div class="col-lg-9">
-														<input type="text" class="form-control" name="location" required placeholder="Enter Address">
+														<input type="text" class="form-control" name="location" required placeholder="Insira o endereço">
 													</div>
 												</div>
 												
@@ -198,35 +198,35 @@
 										</div>
 										
 										<div class="form-group row">
-											<label class="col-lg-2 col-form-label">Feature</label>
+											<label class="col-lg-2 col-form-label">Recurso</label>
 											<div class="col-lg-9">
-											<p class="alert alert-danger">* Important Please Do Not Remove Below Content Only Change <b>Yes</b> Or <b>No</b> or Details and Do Not Add More Details</p>
+											<p class="alert alert-danger">* Importante: Não remova o conteúdo abaixo, apenas altere <b>Sim</b> Ou <b>Não</b> ou detalhes e não adicione mais detalhes</p>
 											
 											<textarea class="tinymce form-control" name="feature" rows="10" cols="30">
 												<!---feature area start--->
 												<div class="col-md-4">
 														<ul>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Property Age : </span>10 Years</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Swiming Pool : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Parking : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">GYM : </span>Yes</li>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Idade da propriedade : </span>10 Anos</li>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Piscina : </span>Sim</li>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Estacionamento : </span>Yes</li>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Ginasio : </span>Yes</li>
 														</ul>
 													</div>
 													<div class="col-md-4">
 														<ul>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Type : </span>Apartment</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Security : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Dining Capacity : </span>10 People</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Church/Temple  : </span>No</li>
+														<!-- <li class="mb-3"><span class="text-secondary font-weight-bold">Type : </span>Apartment</li> -->
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Segurança : </span>Sim</li>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Capacidade de jantar : </span>10 Pessoas</li>
+														<!-- <li class="mb-3"><span class="text-secondary font-weight-bold">Church/Temple  : </span>No</li> -->
 														
 														</ul>
 													</div>
 													<div class="col-md-4">
 														<ul>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">3rd Party : </span>No</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Elevator : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">CCTV : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Water Supply : </span>Ground Water / Tank</li>
+														<!-- <li class="mb-3"><span class="text-secondary font-weight-bold">3rd Party : </span>No</li>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Elevator : </span>Yes</li> -->
+														<li class="mb-3"><span class="text-secondary font-weight-bold">CCTV : </span>Sim</li>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Fornecimento de água : </span>Água Subterrânea / Tanque</li>
 														</ul>
 													</div>
 												<!---feature area end---->
@@ -234,24 +234,24 @@
 											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
 										</div>
 												
-										<h5 class="text-secondary">Image & Status</h5><hr>
+										<h5 class="text-secondary">Imagem e status</h5><hr>
 										<div class="row">
 											<div class="col-xl-6">
 												
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Image</label>
+													<label class="col-lg-3 col-form-label">Imagem</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="image" type="file" required="">
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Image 2</label>
+													<label class="col-lg-3 col-form-label">Imagem 2</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="image2" type="file" required="">
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Image 4</label>
+													<label class="col-lg-3 col-form-label">Imagem 4</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="image4" type="file" required="">
 													</div>
@@ -260,14 +260,14 @@
 													<label class="col-lg-3 col-form-label">Status</label>
 													<div class="col-lg-9">
 														<select class="form-control"  required name="status">
-															<option value="">Select Status</option>
-															<option value="available">Available</option>
-															<option value="sold out">Sold Out</option>
+															<option value="">Selecionar Status</option>
+															<option value="available">Disponivel</option>
+															<!-- <option value="sold out">Sold Out</option> -->
 														</select>
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Basement Floor Plan Image</label>
+													<label class="col-lg-3 col-form-label"> Imagem</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="mapimage" type="file">
 													</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
@@ -276,26 +276,26 @@
 											<div class="col-xl-6">
 												
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Image 1</label>
+													<label class="col-lg-3 col-form-label">Imagem 1</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="image1" type="file" required="">
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">image 3</label>
+													<label class="col-lg-3 col-form-label">imagem 3</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="image3" type="file" required="">
 													</div>
 												</div>
 												
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Floor Plan Image</label>
+													<label class="col-lg-3 col-form-label"> Imagem</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="topmapimage" type="file">
 													</div>
 												</div>
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label">Ground Floor Plan Image</label>
+													<label class="col-lg-3 col-form-label">Imagem</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="groundmapimage" type="file">
 													</div>
@@ -308,12 +308,12 @@
 										<div class="row"><!-- FOR MORE PROJECTS visit: codeastro.com -->
 											<div class="col-md-6">
 												<div class="form-group row">
-													<label class="col-lg-3 col-form-label"><b>Is Featured?</b></label>
+													<label class="col-lg-3 col-form-label"><b>Está em destaque?</b></label>
 													<div class="col-lg-9">
 														<select class="form-control" required name="isfeatured">
-															<option value="">Select...</option>
-															<option value="0">No</option>
-															<option value="1">Yes</option>
+															<option value="">Selecione...</option>
+															<option value="0">Não</option>
+															<option value="1">Sim</option>
 														</select>
 													</div>
 												</div>
@@ -321,7 +321,7 @@
 										</div>
 
 										
-											<input type="submit" value="Submit Property" class="btn btn-info" style="margin-left:200px;">
+											<input type="submit" value="Submeter Propriedade" class="btn btn-info" style="margin-left:200px;">
 										
 								</div>
 							</form>
